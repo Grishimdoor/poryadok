@@ -1,0 +1,110 @@
+img {
+    width: 300;
+}
+
+.text-green {
+    font-style: italic;
+    color: rgb(228, 87, 87);
+    font-size: 30px;
+}
+
+
+.boby {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 500px;
+}
+.jaini-regular {
+    font-family: "Jaini", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+s {
+    color:rgb(255, 196, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.block {
+    background-color:tomato;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+.float {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.link:hover {
+    color:rgb(214, 194, 186);
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(38, 24, 160);
+    margin: 5px 10px 18px 20px;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: aquamarine;
+    height: 150px;
+    align-items: center;
+}
+.sblock {
+    width: 50px;
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.tblock {
+    background-color: brown;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.tflex-container {
+    display: flex;
+    background-color: chocolate;
+    height: 400px;
+}
+#bl-1 {
+    order: 1;
+}
+#bl-3 {
+    align-self: center;
+}
+
+.baume {
+    width: 550;
+    height: 550;
+    background: blue
+}
+@media (max-width: 520px) {
+    body {
+    background-color: red;
+    }
+}
+@media (min-width: 521px) and (max-width: 960px) {
+    body {
+    background-color: pink;
+    }
+}
+@media (min-width: 961px) {
+    body {
+    background-color: #feffe0;
+    }
+}
+
+
